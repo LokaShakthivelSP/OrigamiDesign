@@ -4,6 +4,10 @@ html{
     font-family: century gothic;
     scroll-behavior: smooth;
 }
+body{
+    margin: 0px;
+    padding: 0px;
+}
 nav, .menu{
     background-color: rgba(233, 233, 233, .2);
     padding: 1%;
@@ -17,6 +21,7 @@ nav a, .menu a{
 }
 header{
     background-image: url("4.jpg");
+    padding: 0px;
 }
 footer{
     background-color: darkgray;
@@ -60,4 +65,34 @@ main .item img:hover{
 main .item h3{
     font-style: italic;
 }
+.me{
+    text-align: center;
+    position: absolute;
+    top:35%;
+    left:13%;
+}
+.me a,.me p{
+    font-size: 25px;
+}
+.me a{
+    font-weight: bold;
+}
 
+#camel img,#camel{
+    border: #FCDB61 solid;
+}
+#chameleon img,#chameleon{
+    border: #CDDC26 solid;
+}
+#cicada img,#cicada{
+    border: #EEA954 solid;
+}
+#panda img,#panda{
+    border: #4D516A solid;
+}
+#pigeon img,#pigeon{
+    border: #53C4CC solid;
+}
+#teddy img,#teddy{
+    border: #FEC580 solid;
+}
